@@ -1,4 +1,4 @@
-# Why is "any" labeled a "type safety hole," and why is "unknown" the safer choice?
+# why is "unknown" safer choice than "any"?
 
 "any" labeled a "type safety hole" as it does not force type checking. It enables any operation on variable which can be the reason of runtime error.
 But "unknown" is safe to use as it forces type checking before using the value.
