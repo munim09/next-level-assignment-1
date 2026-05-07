@@ -28,7 +28,7 @@ class Student extends Person {
 ```
 
 Polymorphism:
-Polumorphism means different classes can have the same method with different implementation. Different subclass can define the shared method inheretied from the parent class based on their own logic. It helps to make the code flexible for customization in large projects.
+Polymorphism means different classes can have the same method with different implementation. Different subclass can define the shared method inheretied from the parent class based on their own logic. It helps to make the code flexible for customization in large projects.
 
 Abstraction:
 Abstraction focuses on showing the important features to the user while hiding the internal implementtion details. It hides complex logic and shows important details.
