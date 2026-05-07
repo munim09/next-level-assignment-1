@@ -3,7 +3,7 @@ Object-Oriented Programming (OOP) has four pillars-Inheritance, Polymorphism, Ab
 Inheritance:
 Inheritance enables to create a class using properties from different class. The new class (called subclass) inherit the properties from another class (called parent class). It helps to reduce duplicate code.
 
-In the following example, subclass Student inherit properties from super class Person.
+In the following example, subclass Student inherit properties from parent class Person.
 
 ```ts
 class Person {
