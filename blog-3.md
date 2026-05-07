@@ -16,7 +16,7 @@ function func2(arg: any): any {
 ```
 
 With genrics:
-Generics use type parameter (Like <T>) which allows the function or component to work with different data types. The type will be decided later when the function is called.
+Generics use type parameter (Like <T>) which allows the function or component to work with different data types. The type will be decided later when the function is called. func3 allows multiple "string", "number" etc.
 
 ```ts
 function func3<T>(arg: T): T {
@@ -29,7 +29,7 @@ let output2 = func3<string>(100);
 
 Generic Component:
 
-In the floowing example, instead of creating multiple interface, we can create single generic interface that can work with different data type like string, number
+In the following example, instead of creating multiple interface, we can create single generic interface that can work with different data types like "string", "number" etc.
 
 ```ts
 interface Content<T> {
