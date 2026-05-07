@@ -1,3 +1,5 @@
+# Pick and Omit in TypeScript for DRY principle
+
 DRY (Don’t Repeat Yourself) is a software development principle which helps us to avoid duplicate code. Pick and Omit helps us to create new types from an existing interface instead of re-writing the same properties multiple times. A master interface may contain all the properties of a model. But sometimes, you may need some specific fields. Pick and Omit help us to create specialized “slices” from the master interface.
 
 Suppose the following represents master interface:
@@ -35,3 +37,5 @@ const user: PublicUser = {
     age: 20,
 };
 ```
+
+Pick and Omit help reuse code in a cleaner and more maintainable way.

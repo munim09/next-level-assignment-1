@@ -1,3 +1,5 @@
+# Generics for building reusable components and functions
+
 Generic enables to create reusable components and functions that can work with different data types while maintaining type safety. Generic adapts different data types in single function or component.
 
 Function:
@@ -39,3 +41,5 @@ interface Data<T> {
 const textData: Data<string> = { data: "Hello" };
 const numberData: Data<number> = { data: 42 };
 ```
+
+Generic helps to create reusable function and component code while maintaining type safety for different data types.
