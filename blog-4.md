@@ -1,6 +1,6 @@
 # OOP Principles
 
-Object-Oriented Programming (OOP) has four pillars-Inheritance, Polymorphism, Abstraction, and Encapsulation. This four pillars help manage logic and reduce complexity in large scale project.
+Object-Oriented Programming (OOP) has four pillars-Inheritance, Polymorphism, Abstraction, and Encapsulation. These four pillars help manage logic and reduce complexity in large scale project.
 
 Inheritance:
 Inheritance enables to create a class using properties from different class. The new class (called subclass) inherit the properties from another class (called parent class). It helps to reduce duplicate code.
