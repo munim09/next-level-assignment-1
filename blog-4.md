@@ -34,6 +34,6 @@ Abstraction:
 Abstraction focuses on showing the important features to the user while hiding the internal implementtion details. It hides complex logic and shows important details.
 
 Encapsulation:
-It binds the data and methods inside a class. It also retricts the access to the data and methods using the access modifier private, protected and public. It protects data and controls access.
+It binds the data and methods inside a class. It also retricts the access to the data and methods using the access modifier "private", "protected" and "public". It protects data and controls access.
 
 In large project, these four pillars help to manage the code, reduce complexity.
