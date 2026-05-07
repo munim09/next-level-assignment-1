@@ -1,4 +1,4 @@
-# OOP Pinciples
+# OOP Principles
 
 Object-Oriented Programming (OOP) has four pillars-Inheritance, Polymorphism, Abstraction, and Encapsulation. This four pillars help manage logic and reduce complexity in large scale project.
 
