@@ -1,5 +1,5 @@
-any labeled a "type safety hole" as it does not force type checking. It enables any operation on variable which can be the reason of runtime error.
-But unknown is safe to use as it forces type checking before using the value.
+"any" labeled a "type safety hole" as it does not force type checking. It enables any operation on variable which can be the reason of runtime error.
+But "unknown" is safe to use as it forces type checking before using the value.
 
 In the below example, data.push(10) operation is allowable in complie time but it shows error at runtime.
 
