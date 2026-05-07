@@ -25,7 +25,7 @@ function checkType(input: StringOrNumber): string {
     } else return "String";
 }
 
-function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
+function getProperty<T, K extends keyof T>(obj: T, key: K) {
     return obj[key];
 }
 
