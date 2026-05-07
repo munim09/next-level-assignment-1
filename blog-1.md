@@ -18,7 +18,7 @@ if (typeof data === "string") {
 ```
 
 Type narrowing:
-Type narrowing concept is used that moves data type from broad type to a specific type. typeof, instanceof, or in operators are used to check data type. It helps to find out the exact type at runtime and enables safe operation on the value.
+Type narrowing is a concept that converts data from general type to a specific type. typeof, instanceof, or in operators are used to check data type. It helps to find out the exact type at runtime and enables safe operation on the value.
 
 ```ts
 function print(data: string | number) {
