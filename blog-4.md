@@ -32,10 +32,66 @@ class Student extends Person {
 Polymorphism:
 Polymorphism means different classes can have the same method with different implementation. Different subclass can define the shared method inheretied from the parent class based on their own logic. It helps to make the code flexible for customization in large projects.
 
+```ts
+class Animal {
+  sound() {
+    console.log("Some sound");
+  }
+}
+
+class Dog extends Animal {
+  sound() {
+    console.log("Bark");
+  }
+}
+
+class Cat extends Animal {
+  sound() {
+    console.log("Meow");
+  }
+}
+```
+
 Abstraction:
 Abstraction focuses on showing the important features to the user while hiding the internal implementtion details. It hides complex logic and shows important details.
 
+```ts
+abstract class Shape {
+  abstract getArea(): number;
+}
+
+class Circle extends Shape {
+  constructor(private radius: number) {
+    super();
+  }
+
+  getArea(): number {
+    return Math.PI * this.radius * this.radius;
+  }
+}
+```
+
 Encapsulation:
 It binds the data and methods inside a class. It also retricts the access to the data and methods using the access modifier "private", "protected" and "public". It protects data and controls access.
+
+```ts
+class BankAccount {
+  private balance: number = 0;
+
+  deposit(amount: number) {
+    this.balance += amount;
+  }
+
+  getBalance() {
+    return this.balance;
+  }
+}
+
+const account = new BankAccount();
+account.deposit(500);
+console.log(account.getBalance());
+
+account.balance = 10000; // Not allowed
+```
 
 In large project, these four pillars help to manage the code and reduce complexity.
